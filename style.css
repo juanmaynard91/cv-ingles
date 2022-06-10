@@ -1,0 +1,92 @@
+/*
+* {
+  outline: solid 1px gray;
+}
+*/
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+i {
+  font-size: 1.2rem;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.col__left {
+  background-color: #232526;
+  color: white;
+  padding: 1rem;
+}
+
+img {
+  border-radius: 0.5rem;
+  width: 20rem;
+}
+
+.letra {
+  font-family: "Roboto", sans-serif;
+  padding-left: 2px;
+}
+
+.contacts__altura {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+}
+
+.skills__altura {
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.languages__altura {
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.informacion__altura {
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+.titulo {
+  color: #638dff;
+}
+
+.nombre {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.col__right {
+  padding: 2rem;
+  background-color: #eef2f3;
+}
+
+.button__works {
+  color: #638dff;
+}
+/*# sourceMappingURL=style.css.map */

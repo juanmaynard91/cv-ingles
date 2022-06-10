@@ -1,0 +1,99 @@
+$letra: "Roboto", sans-serif;
+$titulo: #638dff;
+$pd-abajo: 2rem;
+$pd-left: 0.5rem;
+
+/*
+* {
+  outline: solid 1px gray;
+}
+*/
+
+body,
+html {
+  font-family: $letra;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+i {
+  font-size: 1.2rem;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.container {
+  display: inline-flex;
+  //margin: 0 35rem;
+  //height: 79rem;
+}
+
+.col__left {
+  background-color: #232526;
+  color: white;
+  padding: 1rem;
+  //width: 55rem;
+}
+
+img {
+  border-radius: 0.5rem;
+  width: 20rem;
+}
+
+.letra {
+  font-family: $letra;
+  padding-left: 2px;
+}
+
+.contacts__altura {
+  //margin-top: 0;
+  padding-bottom: $pd-abajo;
+  padding-top: 2rem;
+  padding-left: $pd-left;
+}
+.skills__altura {
+  //margin-top: 0;
+  padding-bottom: $pd-abajo;
+  padding-left: $pd-left;
+}
+.languages__altura {
+  //margin-top: 0;
+  padding-bottom: 1rem;
+  padding-left: $pd-left;
+}
+
+.informacion__altura {
+  //margin-top: 0;
+  padding-bottom: $pd-abajo;
+  padding-left: $pd-left;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.titulo {
+  color: $titulo;
+}
+
+.nombre {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.col__right {
+  //height: 69rem;
+  padding: 2rem;
+  background-color: #eef2f3;
+}
+
+.button__works {
+  color: #638dff;
+}
