@@ -1,7 +1,8 @@
 $letra: "Roboto", sans-serif;
 $titulo: #638dff;
 $pd-abajo: 2rem;
-$pd-left: 0.5rem;
+$pd-left: 1.5rem;
+$pd-mobile: 2px;
 
 /*
 * {
@@ -13,6 +14,7 @@ body,
 html {
   font-family: $letra;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -37,12 +39,12 @@ h4 {
 .col__left {
   background-color: #232526;
   color: white;
-  padding: 1rem;
+  //padding: 1rem;
   //width: 55rem;
 }
 
 img {
-  border-radius: 0.5rem;
+  //border-radius: 0.5rem;
   width: 20rem;
 }
 
@@ -57,11 +59,13 @@ img {
   padding-top: 2rem;
   padding-left: $pd-left;
 }
+
 .skills__altura {
   //margin-top: 0;
   padding-bottom: $pd-abajo;
   padding-left: $pd-left;
 }
+
 .languages__altura {
   //margin-top: 0;
   padding-bottom: 1rem;
@@ -96,4 +100,25 @@ img {
 
 .button__works {
   color: #638dff;
+}
+
+@media screen and (width: 412px) {
+  .contacts__altura {
+    padding: $pd-mobile;
+  }
+  .skills__altura {
+    padding: $pd-mobile;
+  }
+  .languages__altura {
+    padding: $pd-mobile;
+  }
+  .informacion__altura {
+    padding: $pd-mobile;
+  }
+  img {
+    width: 18rem;
+  }
+  .col__right {
+    padding: 1rem;
+  }
 }

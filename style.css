@@ -7,6 +7,7 @@ body,
 html {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -31,11 +32,9 @@ h4 {
 .col__left {
   background-color: #232526;
   color: white;
-  padding: 1rem;
 }
 
 img {
-  border-radius: 0.5rem;
   width: 20rem;
 }
 
@@ -47,22 +46,22 @@ img {
 .contacts__altura {
   padding-bottom: 2rem;
   padding-top: 2rem;
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 .skills__altura {
   padding-bottom: 2rem;
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 .languages__altura {
   padding-bottom: 1rem;
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 .informacion__altura {
   padding-bottom: 2rem;
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 .skills {
@@ -88,5 +87,26 @@ img {
 
 .button__works {
   color: #638dff;
+}
+
+@media screen and (width: 412px) {
+  .contacts__altura {
+    padding: 2px;
+  }
+  .skills__altura {
+    padding: 2px;
+  }
+  .languages__altura {
+    padding: 2px;
+  }
+  .informacion__altura {
+    padding: 2px;
+  }
+  img {
+    width: 18rem;
+  }
+  .col__right {
+    padding: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
