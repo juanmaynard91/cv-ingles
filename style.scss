@@ -4,12 +4,6 @@ $pd-abajo: 2rem;
 $pd-left: 1.5rem;
 $pd-mobile: 2px;
 
-/*
-* {
-  outline: solid 1px gray;
-}
-*/
-
 body,
 html {
   font-family: $letra;
@@ -32,19 +26,14 @@ h4 {
 
 .container {
   display: inline-flex;
-  //margin: 0 35rem;
-  //height: 79rem;
 }
 
 .col__left {
   background-color: #232526;
   color: white;
-  //padding: 1rem;
-  //width: 55rem;
 }
 
 img {
-  //border-radius: 0.5rem;
   width: 20rem;
 }
 
@@ -54,26 +43,22 @@ img {
 }
 
 .contacts__altura {
-  //margin-top: 0;
   padding-bottom: $pd-abajo;
-  padding-top: 2rem;
   padding-left: $pd-left;
+  padding-top: 2rem;
 }
 
 .skills__altura {
-  //margin-top: 0;
   padding-bottom: $pd-abajo;
   padding-left: $pd-left;
 }
 
 .languages__altura {
-  //margin-top: 0;
   padding-bottom: 1rem;
   padding-left: $pd-left;
 }
 
 .informacion__altura {
-  //margin-top: 0;
   padding-bottom: $pd-abajo;
   padding-left: $pd-left;
 }
@@ -93,9 +78,8 @@ img {
 }
 
 .col__right {
-  //height: 69rem;
-  padding: 2rem;
   background-color: #eef2f3;
+  padding: 2rem;
 }
 
 .button__works {

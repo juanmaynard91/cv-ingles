@@ -1,8 +1,3 @@
-/*
-* {
-  outline: solid 1px gray;
-}
-*/
 body,
 html {
   font-family: "Roboto", sans-serif;
@@ -24,8 +19,6 @@ h4 {
 }
 
 .container {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -45,8 +38,8 @@ img {
 
 .contacts__altura {
   padding-bottom: 2rem;
-  padding-top: 2rem;
   padding-left: 1.5rem;
+  padding-top: 2rem;
 }
 
 .skills__altura {
@@ -65,10 +58,8 @@ img {
 }
 
 .skills {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1];
-      grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .titulo {
@@ -81,8 +72,8 @@ img {
 }
 
 .col__right {
-  padding: 2rem;
   background-color: #eef2f3;
+  padding: 2rem;
 }
 
 .button__works {
@@ -108,5 +99,4 @@ img {
   .col__right {
     padding: 1rem;
   }
-}
-/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
