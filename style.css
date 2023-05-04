@@ -1,8 +1,11 @@
-body,
-html {
-  font-family: "Roboto", sans-serif;
+* {
+  border: none;
+  font-family: sans-serif;
+  list-style: none;
   margin: 0;
+  outline: none;
   padding: 0;
+  text-decoration: none;
 }
 
 a {
@@ -10,8 +13,8 @@ a {
   text-decoration: none;
 }
 
-i {
-  font-size: 1.2rem;
+p {
+  margin: 0;
 }
 
 h4 {
@@ -19,7 +22,9 @@ h4 {
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .col__left {
@@ -28,33 +33,30 @@ h4 {
 }
 
 img {
+  image-rendering: pixelated;
+  -o-object-fit: cover;
+  object-fit: cover;
   width: 20rem;
 }
 
-.letra {
-  font-family: "Roboto", sans-serif;
-  padding-left: 2px;
+.acomodando-contactos {
+  display: grid;
 }
 
 .contacts__altura {
-  padding-bottom: 2rem;
-  padding-left: 1.5rem;
-  padding-top: 2rem;
+  padding: 1rem;
 }
 
 .skills__altura {
-  padding-bottom: 2rem;
-  padding-left: 1.5rem;
+  padding: 1rem;
 }
 
 .languages__altura {
-  padding-bottom: 1rem;
-  padding-left: 1.5rem;
+  padding: 1rem;
 }
 
 .informacion__altura {
-  padding-bottom: 2rem;
-  padding-left: 1.5rem;
+  padding: 1rem;
 }
 
 .skills {
@@ -78,25 +80,4 @@ img {
 
 .button__works {
   color: #638dff;
-}
-
-@media screen and (width: 412px) {
-  .contacts__altura {
-    padding: 2px;
-  }
-  .skills__altura {
-    padding: 2px;
-  }
-  .languages__altura {
-    padding: 2px;
-  }
-  .informacion__altura {
-    padding: 2px;
-  }
-  img {
-    width: 18rem;
-  }
-  .col__right {
-    padding: 1rem;
-  }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
