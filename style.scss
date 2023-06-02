@@ -12,6 +12,15 @@ $paddings: 1rem;
   text-decoration: none;
 }
 
+/* darle altura y ancho en cointainer*/
+.ancho-cv {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  /*width: 80%;*/
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -23,12 +32,6 @@ p {
 
 h4 {
   margin-bottom: 0;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }
 
 .col__left {
