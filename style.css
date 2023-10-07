@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   border: none;
   font-family: sans-serif;
@@ -8,13 +9,13 @@
   text-decoration: none;
 }
 
-/* darle altura y ancho en cointainer*/
+/* darle altura y ancho en container */
 .ancho-cv {
   display: flex;
   height: 100vh;
   justify-content: center;
   margin: auto;
-  /*width: 80%;*/
+  /* width: 80%; */
 }
 
 a {
@@ -43,20 +44,13 @@ img {
 
 .acomodando-contactos {
   display: grid;
+  gap: 0.5rem; /* Agregado: separación entre los íconos y el texto */
+  margin-top: 1rem; /* Agregado: margen superior para separar del borde superior */
 }
 
-.contacts__altura {
-  padding: 1rem;
-}
-
-.skills__altura {
-  padding: 1rem;
-}
-
-.languages__altura {
-  padding: 1rem;
-}
-
+.contacts__altura,
+.skills__altura,
+.languages__altura,
 .informacion__altura {
   padding: 1rem;
 }
@@ -82,4 +76,8 @@ img {
 
 .button__works {
   color: #638dff;
+}
+
+ul {
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
